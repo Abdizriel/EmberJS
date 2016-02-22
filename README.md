@@ -1,7 +1,6 @@
-# Outplay
+# Ember2.3 App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Demo of current app could be found [here](https://young-lowlands-63364.herokuapp.com/)
 
 ## Prerequisites
 
@@ -25,10 +24,6 @@ You will need the following things properly installed on your computer.
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
 ### Running Tests
 
 * `ember test`
@@ -41,13 +36,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+To deploy application on Heroku perform following steps:
 
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+* Create [Heroku Account](https:/heroku.com/)
+* Install Heroku Toolbar
+* From main Ember App directory run `heroku create --buildpack https://github.com/tonycoco/heroku-buildpack-ember-cli.git`
+* Save Heroku app Id for example `young-lowlands-63364`
+* cd <project directory>
+* git init
+* git add --all
+* git commit -m "First commit"
+* heroku git:remote -a <heroku app id>

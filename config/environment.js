@@ -1,6 +1,7 @@
 /* jshint node: true */
 
 module.exports = function(environment) {
+
   var ENV = {
     modulePrefix: 'outplay',
     environment: environment,
@@ -16,6 +17,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    torii: {
+      providers: {
+        'facebook-oauth2': {
+          apiKey: '631252926924840'
+        }
+      }
+    },
+
+    'ember-simple-auth': {
+      baseURL: ''
     }
   };
 

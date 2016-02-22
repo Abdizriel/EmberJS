@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  height:50px;
+  padding: 15px 0 5px;
+  color: #666;
+  background-color: #080808;
+  border-top: 1px solid #000;
+}
+
+.footer a {
+  color: #666
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.fa-social {
+  margin-right: 10px;
+}

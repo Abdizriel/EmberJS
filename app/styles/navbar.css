@@ -1,0 +1,16 @@
+.outplay-navbar {
+  color: #666666;
+  background-color: #080808;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-toggle {
+  border: 0;
+}
+
+.navbar-collapse {
+  border: 0;
+}

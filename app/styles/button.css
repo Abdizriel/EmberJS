@@ -1,0 +1,14 @@
+/* Button Styles */
+.btn-flat {
+  border-radius: 0;
+}
+
+.btn-carrot {
+  background-color: #e67e22;
+  color: #ffffff;
+}
+
+.btn-carrot:hover, .btn-carrot:focus, .btn-carrot:active {
+  background-color: #d35400;
+  color: #ffffff;
+}

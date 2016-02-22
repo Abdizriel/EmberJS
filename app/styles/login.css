@@ -1,0 +1,15 @@
+.login {
+  position: absolute;
+  top: 45%;
+  left: 0
+}
+
+.login a{
+  color: #666666;
+}
+
+
+.login a:hover{
+  color: #777777;
+  text-decoration: none;
+}

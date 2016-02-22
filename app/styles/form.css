@@ -1,0 +1,16 @@
+/* Form Styles */
+.input-flat {
+  border-radius: 0!important;
+}
+
+.input-flat:focus {
+  border: 0;
+}
+
+.textarea-flat {
+  border-radius: 0!important;
+}
+
+.textarea-flat:focus {
+  border: 0;
+}

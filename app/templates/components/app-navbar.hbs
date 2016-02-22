@@ -1,0 +1,44 @@
+<nav class="navbar navbar-default navbar-static-top outplay-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{#link-to 'index' class='navbar-brand font-extra-bold font-size-28'}}Marcin Mrotek{{/link-to}}
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+              {{#link-to 'index' tagName='li'}}
+                    {{#link-to 'index'}}Homepage{{/link-to}}
+                {{/link-to}}
+                {{#link-to 'about' tagName='li'}}
+                    {{#link-to 'about'}}About Me{{/link-to}}
+                {{/link-to}}
+                {{#if session.isAuthenticated}}
+                    {{#link-to 'contact' tagName='li'}}
+                        {{#link-to 'contact'}}Contact{{/link-to}}
+                    {{/link-to}}
+                {{/if}}
+            </ul>
+
+
+            <ul class="nav navbar-nav navbar-right">
+                {{#if session.isAuthenticated}}
+                    <li>
+                        <a {{action 'logout'}} style="cursor: pointer;">Sign Out</a>
+                    </li>
+                {{else}}
+                    <li>
+                        <a {{action 'authenticateWithFacebook'}} style="cursor: pointer;">Login with Facebook</a>
+                    </li>
+                {{/if}}
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

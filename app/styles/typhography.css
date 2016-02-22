@@ -1,0 +1,35 @@
+/* Font Weight */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-extra-bold {
+  font-weight: 800;
+}
+
+/* Font Size */
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-28 {
+  font-size: 28px;
+}
+
+.font-size-42 {
+  font-size: 42px;
+}
+
+/* Font Line Height */
+.font-line-height-28 {
+  line-height: 28px;
+}
+
+/* Font Styles */
+.font-shadow {
+  text-shadow: 1px 1px #000;
+}
