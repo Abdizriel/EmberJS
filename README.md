@@ -47,3 +47,8 @@ To deploy application on Heroku perform following steps:
 * git add --all
 * git commit -m "First commit"
 * heroku git:remote -a <heroku app id>
+* git push heroku master
+* Create [Facebook Developer Account](https://developers.facebook.com/)
+* Create new application
+* Add your heroku website in application settings
+* Change `config/environment.js` facebook-oauth2 apiKey to your application id
